@@ -11,9 +11,12 @@ const TeamBuilderCardStyle = styled.div`
     height: auto;
     background-color: hsl(0, 0%, 95%);
   }
+  
+ /* Desktop */
   img {
     width: 64px;
     height: 64px;
+    margin-bottom: 20px;
   }
   span {
     font-size: 15px;
