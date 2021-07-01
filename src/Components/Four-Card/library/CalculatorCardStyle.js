@@ -11,9 +11,12 @@ const CalculatorCardStyle = styled.div`
     height: auto;
     background-color: hsl(0, 0%, 95%);
   }
+  
+  /* Desktop-View */
   img {
     width: 64px;
     height: 64px;
+    margin-bottom: 20px;
   }
   span {
     font-size: 15px;
@@ -48,6 +51,7 @@ const CalculatorCardStyle = styled.div`
   width: 300px;
   box-shadow: 5px 10px 18px hsl(229, 6%, 66%);
   border-radius: 10px;
+  margin-bottom: 10px;
 `;
 
 export default CalculatorCardStyle;
